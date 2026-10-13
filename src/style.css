@@ -1,0 +1,13 @@
+:root {
+  --color-black: #0f0f0f;
+  --color-white: #ffffff;
+  --color-dark-blue: #043873;
+  --link-primary: #4f9cf9;
+  --link-primary-hover: #295c9b;
+
+  --button-yellow: #ffe492;
+  --button-yellow-hover: #dabc64;
+
+  --button-blue: #4f9cf9;
+  --button-blue-hover: #295c9b;
+}
