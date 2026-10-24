@@ -11,3 +11,56 @@
   --button-blue: #4f9cf9;
   --button-blue-hover: #295c9b;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+}
+.header {
+  background-color: #15161b;
+  color: #ffffff;
+  border-radius: 0 0 16px 16px;
+  padding: 16px 28px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.header__logo {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.header__logo span {
+  color: #31d17c;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__link {
+  color: #c3c3c9;
+  text-decoration: none;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.header__link:hover {
+  color: #ffffff;
+}
+
